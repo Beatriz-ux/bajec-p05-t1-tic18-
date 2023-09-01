@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -18,6 +19,14 @@ int main(){
             ((fx > y)? " a direita da curva":
             " a esquera da curva")) << endl; 
     
+    // d)
+    z = sqrt((x*x) + (y*y));
+
+    z = x*y;
+    cout << x << " * " << y << " em notacao cientifica" << scientific << z << endl;
+
+
+
 
 
     return 0;
