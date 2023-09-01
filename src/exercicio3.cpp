@@ -27,12 +27,15 @@ int main(){
 
     numC = (numB != 0)? numA / numB: NULL;
     cout << numA << " / "<< numB << " = ";
-    if (numC)
+    if (numC){
         cout << "(dec)"<<numC;
-    else
+        resto = numA % numB;
+    }else
         cout<< "Divisao invalida";
     cout << endl;
- 
+    
+    cout << "A divisao " << numA << "/" << numB << (resto)? "é exata" : "não é exata";
+    
     
 
 
