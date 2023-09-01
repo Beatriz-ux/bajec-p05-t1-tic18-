@@ -7,6 +7,7 @@ using namespace std;
 
 int main(){
     double cofA, cofB, cofC;
+    double x;
     double delta, resultA, resultB;
 
     cout << "Digite um coeficiente a: ";
@@ -33,7 +34,9 @@ int main(){
     cout << ((delta > 0)? " e ": "\n") << ((delta > 0)? resultB: NULL);
     cout << endl;
 
-
+    cout << "\nDigite x: ";
+    cin >> x;
+    cout << "Resultado de P(x) = ax² + bx + c: " << (cofA*x*x)+ (cofB*x)+ cofC;
 
     return 0;
 }
