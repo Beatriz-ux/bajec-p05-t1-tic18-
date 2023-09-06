@@ -24,7 +24,5 @@ int main(void)
     cout << dec << int(ch2) << "\t0" << oct << int(ch2) << "\t0x" << hex << int(ch2) << "\t" << ch2 << endl;
     ch3=tolower(ch2);
     cout << dec << int(ch3) << "\t0" << oct << int(ch3) << "\t0x" << hex << int(ch3) << "\t" << ch3 << endl;
-    
-
-    return 0;
 }
+
