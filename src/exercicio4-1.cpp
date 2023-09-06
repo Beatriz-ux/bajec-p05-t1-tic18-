@@ -1,35 +1,33 @@
-#include<iostream>
-#include<cmath> //Para usar as funções pow() e sqrt()
-int main()
-{
-    //a
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+
+int main(){
     double x, y, z;
-    
-    //b
-    std::cout << "Digite um numero de ponto flutuante: ";
-    std::cin >> x;
-    std::cout << "Digite um segundo numero de ponto flutuante: ";
-    std::cin >> y;
-    
-    //c
-    std::cout << "A coordenada se encontra na " << 
-    (y > 5*x+2 ? "esquerda" : 
-    (y == 5*x+2 ? "curva" : 
-    "direita")) << std::endl;
-    
-    //d
-    z = sqrt(pow(x, 2) + pow(y, 2));
-    std::cout << z << std::endl;
+    double fx;
 
-    //e
-    z = x * y;
-    int i;
+    cout << "Digite um numero real: ";
+    cin >> x;
+    cout << "Digite um numero real: ";
+    cin >> y;
+    
+    fx = (5*x) + 2;
+    cout << "O ponto esta";
+    cout << ((fx == y)? "na curva" :
+            ((fx > y)? " a direita da curva":
+            " a esquera da curva")) << endl; 
+    
+    // d)
+    z = sqrt((x*x) + (y*y));
 
-    for(i = 0; z >= 10; i++)
-    {   
-        z = z / 10;
-    }
+    z = x*y;
+    cout << x << " * " << y << " em notacao cientifica" << scientific << z << endl;
 
-    std::cout << "Variavel z em notacao cientifica: " << z << " * 10^" << i <<std::endl; 
+
+
+
+
     return 0;
 }
