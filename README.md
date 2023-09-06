@@ -1,27 +1,15 @@
 # bajec-p05-t1-tic18-
 
-##Atividade
+## Atividade
 
+<p>
+  Nesta atividade trabalhamos na resolução de problemas em C++ através do uso de operações com caracteres,números  inteiros e de ponto flutuante e operadores bit a bit.
+</p>
 
-##Desenvolvedores
+## Desenvolvedores
 
 - Alberto
 - Beatriz
 - Cauã
 - Everaldina
 - João Manoel
-
-##Contatos
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/dev-joao-manoel
--
--
--
--
-<<<<<<< HEAD
-- joaomanoel200@outlook.com
-=======
-- joaomanoel200@outlook.com
->>>>>>> origin/dev-joao-manoel
