@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Prerequisites
 *.d
 
@@ -34,3 +35,8 @@
 .vscode/
 src/output/
 .vscode/
+=======
+output/
+.vscode/
+```
+>>>>>>> origin/dev-joao-manoel

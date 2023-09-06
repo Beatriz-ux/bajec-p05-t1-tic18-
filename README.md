@@ -12,8 +12,16 @@
 - João Manoel
 
 ##Contatos
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/dev-joao-manoel
 -
 -
 -
 -
+<<<<<<< HEAD
 - joaomanoel200@outlook.com
+=======
+- joaomanoel200@outlook.com
+>>>>>>> origin/dev-joao-manoel
