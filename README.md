@@ -3,7 +3,8 @@
 ## Atividade
 
 <p>
-  Nesta atividade trabalhamos na resolução de problemas em C++ através do uso de operações com caracteres,números  inteiros e de ponto flutuante e operadores bit a bit.
+  Nesta atividade trabalhamos na resolução de problemas em C++ através do uso de estruturas de repetição.
+  Usando conceitos de contadores e sentinelas.
 </p>
 
 ## Desenvolvedores
